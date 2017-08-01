@@ -1,4 +1,6 @@
 #Notes for Python
+> 主要是廖雪峰老师[博客][]的学习笔记
+
 ## Basics
 1.字典的迭代
 	默认情况下，dict迭代的是key,假如有一个字典d，key的迭代可以`for key in d`。如果要迭代value，可以用`for value in d.values()`，如果要同时迭代key和value，可以用`for k, v in d.items()`。
@@ -266,14 +268,6 @@ Python对函数式编程提供部分支持。由于Python允许使用变量，�
 
 
 
-
-
-
-
-
-
-
-
 ## builtin_function and module
 1.  enumerate
 `enumerate 函数可以可以把一个list变成索引-元素对，这样就可以在for循环中同时迭代**索引**和**元素**本身`
@@ -282,3 +276,5 @@ Python对函数式编程提供部分支持。由于Python允许使用变量，�
 for  i, value in enumerate(['a', 'b', 'c']):
         print(i,value)
 ```
+
+[博客]:https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000
